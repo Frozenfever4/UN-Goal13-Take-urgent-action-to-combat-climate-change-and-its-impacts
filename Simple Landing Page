@@ -1,0 +1,116 @@
+//Simple Landing Page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climate Action Now | Combat Climate Change</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e0f7fa;
+      color: #333;
+    }
+    header {
+      background-color: #2E7D32;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      font-size: 2em;
+    }
+    .content {
+      padding: 40px;
+      text-align: center;
+    }
+    h2 {
+      color: #00796B;
+    }
+    p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #00796B;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      margin-top: 30px;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #004D40;
+    }
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      margin: 40px 0;
+    }
+    .stat-item {
+      background-color: #B2DFDB;
+      padding: 20px;
+      border-radius: 10px;
+      width: 200px;
+    }
+    .problem-statement {
+      background-color: #f1f8e9;
+      padding: 30px;
+      margin: 20px 0;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #004D40;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Take Urgent Action to Combat Climate Change and Its Impacts
+</header>
+
+<div class="content">
+  <h2>Join the Movement to Protect Our Planet</h2>
+  <p>Climate change threatens the future of our planet and all life on Earth. We need collective and immediate action to reduce carbon emissions, restore ecosystems, and build a sustainable future for generations to come. Together, we can make a difference.</p>
+
+  <div class="problem-statement">
+    <h3>Problem Statement</h3>
+    <p>Climate change is one of the most pressing global challenges of our time, with widespread and severe impacts on ecosystems, weather patterns, food security, and human health. Rising global temperatures, extreme weather events, and sea-level rise threaten to destabilize communities and economies worldwide. Despite international efforts, carbon emissions continue to rise, and vulnerable populations face the greatest risks. Urgent and transformative action is needed to reduce greenhouse gas emissions, adapt to climate impacts, and build resilient systems that safeguard the planet for future generations.</p>
+  </div>
+  
+  <div class="stats">
+    <div class="stat-item">
+      <h3>10 Years</h3>
+      <p>To drastically reduce carbon emissions and prevent irreversible damage.</p>
+    </div>
+    <div class="stat-item">
+      <h3>1.5°C</h3>
+      <p>Target global temperature rise to limit severe climate impacts.</p>
+    </div>
+    <div class="stat-item">
+      <h3>50%</h3>
+      <p>Reduction in emissions needed by 2030 to meet climate goals.</p>
+    </div>
+  </div>
+  
+  <a href="#" class="cta-button">Take Action Now</a>
+</div>
+
+<footer>
+  <p>&copy; 2024 Climate Action Now | Together for a Sustainable Future</p>
+</footer>
+
+</body>
+</html>
